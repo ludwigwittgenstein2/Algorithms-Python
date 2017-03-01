@@ -12,6 +12,5 @@ N = [{b:2,c:1,d:3,e:9,f:4},
         {f:9,g:8}
 ]
 
-print N
-
-print N[a][d]
+print N[f]
+print N[c]
