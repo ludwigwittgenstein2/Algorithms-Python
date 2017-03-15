@@ -18,11 +18,16 @@ def naiveSearch():
         if user_input[i] == pattern[0]:
             print "The length of Index of User Input:"+ str(len(user_input))
             print "Pattern found at Index"+ str(i)
+        if user_input[i] != pattern[0]:
+            print "Not Found"
+
     for j in range(len(pattern)):
         if len(pattern) == 0:
             break
         if pattern[j] == user_input[0]:
             print "Pattern found at Index"+ str(j)
+        if pattern[j] != user_input[0]:
+            print "Not Found"
 
 def main():
     naiveSearch()
